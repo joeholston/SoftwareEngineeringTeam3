@@ -1,6 +1,18 @@
 C:\Users\holstonjx1\Documents\Grove City\Visual Studio\SoftwareEngineering\SoftwareEngineering\bin\Debug\SoftwareEngineering.exe.config
+<<<<<<< Updated upstream
 C:\Users\BeilerSA1\Documents\SoftwareProject\SoftwareEngineering\SoftwareEngineering\bin\Debug\SoftwareEngineering.exe.config
 C:\Users\BeilerSA1\Documents\SoftwareProject\SoftwareEngineering\SoftwareEngineering\obj\Debug\SoftwareEngineering.csprojResolveAssemblyReference.cache
 C:\Users\BeilerSA1\Documents\SoftwareProject\SoftwareEngineering\SoftwareEngineering\obj\Debug\SoftwareEngineering.Form1.resources
 C:\Users\BeilerSA1\Documents\SoftwareProject\SoftwareEngineering\SoftwareEngineering\obj\Debug\SoftwareEngineering.Properties.Resources.resources
 C:\Users\BeilerSA1\Documents\SoftwareProject\SoftwareEngineering\SoftwareEngineering\obj\Debug\SoftwareEngineering.csproj.GenerateResource.Cache
+=======
+C:\Users\TrinkleSE1\Documents\2017-2018\Spring\Software Engineering\Sprint1\SoftwareEngineeringTeam3\SoftwareEngineering\SoftwareEngineering\bin\Debug\SoftwareEngineering.exe.config
+C:\Users\TrinkleSE1\Documents\2017-2018\Spring\Software Engineering\Sprint1\SoftwareEngineeringTeam3\SoftwareEngineering\SoftwareEngineering\bin\Debug\SoftwareEngineering.exe
+C:\Users\TrinkleSE1\Documents\2017-2018\Spring\Software Engineering\Sprint1\SoftwareEngineeringTeam3\SoftwareEngineering\SoftwareEngineering\bin\Debug\SoftwareEngineering.pdb
+C:\Users\TrinkleSE1\Documents\2017-2018\Spring\Software Engineering\Sprint1\SoftwareEngineeringTeam3\SoftwareEngineering\SoftwareEngineering\obj\Debug\SoftwareEngineering.csprojResolveAssemblyReference.cache
+C:\Users\TrinkleSE1\Documents\2017-2018\Spring\Software Engineering\Sprint1\SoftwareEngineeringTeam3\SoftwareEngineering\SoftwareEngineering\obj\Debug\SoftwareEngineering.Form1.resources
+C:\Users\TrinkleSE1\Documents\2017-2018\Spring\Software Engineering\Sprint1\SoftwareEngineeringTeam3\SoftwareEngineering\SoftwareEngineering\obj\Debug\SoftwareEngineering.Properties.Resources.resources
+C:\Users\TrinkleSE1\Documents\2017-2018\Spring\Software Engineering\Sprint1\SoftwareEngineeringTeam3\SoftwareEngineering\SoftwareEngineering\obj\Debug\SoftwareEngineering.csproj.GenerateResource.Cache
+C:\Users\TrinkleSE1\Documents\2017-2018\Spring\Software Engineering\Sprint1\SoftwareEngineeringTeam3\SoftwareEngineering\SoftwareEngineering\obj\Debug\SoftwareEngineering.exe
+C:\Users\TrinkleSE1\Documents\2017-2018\Spring\Software Engineering\Sprint1\SoftwareEngineeringTeam3\SoftwareEngineering\SoftwareEngineering\obj\Debug\SoftwareEngineering.pdb
+>>>>>>> Stashed changes
