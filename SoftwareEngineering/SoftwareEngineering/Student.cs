@@ -8,6 +8,14 @@ namespace SoftwareEngineering
 {
     class Student
     {
-        public List<Course> studentCourses { get; set;}
+        private List<Course> studentCourses { get; set;}
+        public void addCourse(Course selectedCourse)
+        {
+            studentCourses.Add(selectedCourse); //Add the selected Course to the end of the list
+        }
+       public void deleteCourse(Course deselectedCourse)
+        {
+            studentCourses.Remove(deselectedCourse); //There should not be multiple of the same Course objects, so deleting all instances of the deselected course is fine.
+        }
     }
 }
