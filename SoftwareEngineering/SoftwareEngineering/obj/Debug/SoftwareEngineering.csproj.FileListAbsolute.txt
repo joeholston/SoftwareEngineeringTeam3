@@ -1,2 +1,6 @@
 C:\Users\holstonjx1\Documents\Grove City\Visual Studio\SoftwareEngineering\SoftwareEngineering\bin\Debug\SoftwareEngineering.exe.config
 C:\Users\BeilerSA1\Documents\SoftwareProject\SoftwareEngineering\SoftwareEngineering\bin\Debug\SoftwareEngineering.exe.config
+C:\Users\BeilerSA1\Documents\SoftwareProject\SoftwareEngineering\SoftwareEngineering\obj\Debug\SoftwareEngineering.csprojResolveAssemblyReference.cache
+C:\Users\BeilerSA1\Documents\SoftwareProject\SoftwareEngineering\SoftwareEngineering\obj\Debug\SoftwareEngineering.Form1.resources
+C:\Users\BeilerSA1\Documents\SoftwareProject\SoftwareEngineering\SoftwareEngineering\obj\Debug\SoftwareEngineering.Properties.Resources.resources
+C:\Users\BeilerSA1\Documents\SoftwareProject\SoftwareEngineering\SoftwareEngineering\obj\Debug\SoftwareEngineering.csproj.GenerateResource.Cache
