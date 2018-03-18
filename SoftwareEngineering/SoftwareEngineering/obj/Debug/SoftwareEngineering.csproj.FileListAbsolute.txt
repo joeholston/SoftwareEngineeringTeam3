@@ -8,3 +8,4 @@ C:\Users\BeilerSA1\Documents\SoftwareProject\SoftwareEngineering\SoftwareEnginee
 C:\Users\BeilerSA1\Documents\SoftwareProject\SoftwareEngineering\SoftwareEngineering\obj\Debug\SoftwareEngineering.pdb
 C:\Users\BeilerSA1\Documents\SoftwareProject\SoftwareEngineering\SoftwareEngineering\bin\Debug\SoftwareEngineering.exe
 C:\Users\BeilerSA1\Documents\SoftwareProject\SoftwareEngineering\SoftwareEngineering\bin\Debug\SoftwareEngineering.pdb
+C:\Users\holstonjx1\Documents\Grove City\REPOSITORIES\SoftwareEngineering\SoftwareEngineering\SoftwareEngineering\bin\Debug\SoftwareEngineering.exe.config
