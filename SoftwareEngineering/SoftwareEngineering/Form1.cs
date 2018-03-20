@@ -17,6 +17,7 @@ namespace SoftwareEngineering
             InitializeComponent();
 
             mwfAll(false);
+            trAll(false);
         }
  
         private void richTextBox18_TextChanged(object sender, EventArgs e)
@@ -50,6 +51,15 @@ namespace SoftwareEngineering
             mwf1(show);
             mwf2(show);
             mwf3(show);
+        }
+        
+        private void trAll(bool show)
+        {
+            tr8(show);
+            tr10(show);
+            tr1130(show);
+            tr1(show);
+            tr230(show);
         }
 
         private void mwf8(bool show)
@@ -178,6 +188,81 @@ namespace SoftwareEngineering
                 w3.Hide();
                 f3.Hide();
             }
+        }
+
+        private void tr8(bool show)
+        {
+            if (show)
+            {
+                t8.Show();
+                r8.Show();
+            }
+            else
+            {
+                t8.Hide();
+                r8.Hide();
+            }
+        }
+
+        private void tr10(bool show)
+        {
+            if (show)
+            {
+                t10.Show();
+                r10.Show();
+            }
+            else
+            {
+                t10.Hide();
+                r10.Hide();
+            }
+        }
+
+        private void tr1130(bool show)
+        {
+            if (show)
+            {
+                t1130.Show();
+                r1130.Show();
+            }
+            else
+            {
+                t1130.Hide();
+                r1130.Hide();
+            }
+        }
+
+        private void tr1(bool show)
+        {
+            if (show)
+            {
+                t1.Show();
+                r1.Show();
+            }
+            else
+            {
+                t1.Hide();
+                r1.Hide();
+            }
+        }
+
+        private void tr230(bool show)
+        {
+            if (show)
+            {
+                t230.Show();
+                r230.Show();
+            }
+            else
+            {
+                t230.Hide();
+                r230.Hide();
+            }
+        }
+
+        private void t8_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

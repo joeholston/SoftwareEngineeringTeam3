@@ -39,51 +39,45 @@
             this.courseName = new System.Windows.Forms.Label();
             this.courseCheckBox = new System.Windows.Forms.CheckBox();
             this.calendarGroup = new System.Windows.Forms.GroupBox();
+            this.fHeader = new System.Windows.Forms.Label();
+            this.rHeader = new System.Windows.Forms.Label();
+            this.wHeader = new System.Windows.Forms.Label();
+            this.tHeader = new System.Windows.Forms.Label();
+            this.mHeader = new System.Windows.Forms.Label();
             this.f3 = new System.Windows.Forms.RichTextBox();
-            this.r3 = new System.Windows.Forms.RichTextBox();
             this.w3 = new System.Windows.Forms.RichTextBox();
-            this.t3 = new System.Windows.Forms.RichTextBox();
             this.m3 = new System.Windows.Forms.RichTextBox();
             this.f8 = new System.Windows.Forms.RichTextBox();
-            this.r8 = new System.Windows.Forms.RichTextBox();
             this.w8 = new System.Windows.Forms.RichTextBox();
             this.t8 = new System.Windows.Forms.RichTextBox();
             this.m8 = new System.Windows.Forms.RichTextBox();
             this.f9 = new System.Windows.Forms.RichTextBox();
-            this.r9 = new System.Windows.Forms.RichTextBox();
             this.w9 = new System.Windows.Forms.RichTextBox();
-            this.t9 = new System.Windows.Forms.RichTextBox();
             this.m9 = new System.Windows.Forms.RichTextBox();
             this.f10 = new System.Windows.Forms.RichTextBox();
-            this.r10 = new System.Windows.Forms.RichTextBox();
             this.w10 = new System.Windows.Forms.RichTextBox();
             this.t10 = new System.Windows.Forms.RichTextBox();
             this.m10 = new System.Windows.Forms.RichTextBox();
             this.f11 = new System.Windows.Forms.RichTextBox();
-            this.r11 = new System.Windows.Forms.RichTextBox();
             this.w11 = new System.Windows.Forms.RichTextBox();
-            this.t11 = new System.Windows.Forms.RichTextBox();
             this.m11 = new System.Windows.Forms.RichTextBox();
             this.f12 = new System.Windows.Forms.RichTextBox();
-            this.r12 = new System.Windows.Forms.RichTextBox();
             this.w12 = new System.Windows.Forms.RichTextBox();
-            this.t12 = new System.Windows.Forms.RichTextBox();
             this.m12 = new System.Windows.Forms.RichTextBox();
             this.f1 = new System.Windows.Forms.RichTextBox();
-            this.r1 = new System.Windows.Forms.RichTextBox();
             this.w1 = new System.Windows.Forms.RichTextBox();
-            this.t1 = new System.Windows.Forms.RichTextBox();
             this.m1 = new System.Windows.Forms.RichTextBox();
             this.f2 = new System.Windows.Forms.RichTextBox();
-            this.r2 = new System.Windows.Forms.RichTextBox();
             this.w2 = new System.Windows.Forms.RichTextBox();
-            this.t2 = new System.Windows.Forms.RichTextBox();
             this.m2 = new System.Windows.Forms.RichTextBox();
-            this.mHeader = new System.Windows.Forms.Label();
-            this.tHeader = new System.Windows.Forms.Label();
-            this.wHeader = new System.Windows.Forms.Label();
-            this.rHeader = new System.Windows.Forms.Label();
-            this.fHeader = new System.Windows.Forms.Label();
+            this.r8 = new System.Windows.Forms.RichTextBox();
+            this.t1130 = new System.Windows.Forms.RichTextBox();
+            this.r10 = new System.Windows.Forms.RichTextBox();
+            this.r1130 = new System.Windows.Forms.RichTextBox();
+            this.t1 = new System.Windows.Forms.RichTextBox();
+            this.t230 = new System.Windows.Forms.RichTextBox();
+            this.r1 = new System.Windows.Forms.RichTextBox();
+            this.r230 = new System.Windows.Forms.RichTextBox();
             this.searchGroup.SuspendLayout();
             this.resultsGroup.SuspendLayout();
             this.calendarGroup.SuspendLayout();
@@ -188,50 +182,44 @@
             // 
             // calendarGroup
             // 
+            this.calendarGroup.Controls.Add(this.r230);
+            this.calendarGroup.Controls.Add(this.r1);
+            this.calendarGroup.Controls.Add(this.t230);
+            this.calendarGroup.Controls.Add(this.t1);
+            this.calendarGroup.Controls.Add(this.r1130);
+            this.calendarGroup.Controls.Add(this.r10);
+            this.calendarGroup.Controls.Add(this.t1130);
+            this.calendarGroup.Controls.Add(this.r8);
             this.calendarGroup.Controls.Add(this.fHeader);
             this.calendarGroup.Controls.Add(this.rHeader);
             this.calendarGroup.Controls.Add(this.wHeader);
             this.calendarGroup.Controls.Add(this.tHeader);
             this.calendarGroup.Controls.Add(this.mHeader);
             this.calendarGroup.Controls.Add(this.f3);
-            this.calendarGroup.Controls.Add(this.r3);
             this.calendarGroup.Controls.Add(this.w3);
-            this.calendarGroup.Controls.Add(this.t3);
             this.calendarGroup.Controls.Add(this.m3);
             this.calendarGroup.Controls.Add(this.f8);
-            this.calendarGroup.Controls.Add(this.r8);
             this.calendarGroup.Controls.Add(this.w8);
             this.calendarGroup.Controls.Add(this.t8);
             this.calendarGroup.Controls.Add(this.m8);
             this.calendarGroup.Controls.Add(this.f9);
-            this.calendarGroup.Controls.Add(this.r9);
             this.calendarGroup.Controls.Add(this.w9);
-            this.calendarGroup.Controls.Add(this.t9);
             this.calendarGroup.Controls.Add(this.m9);
             this.calendarGroup.Controls.Add(this.f10);
-            this.calendarGroup.Controls.Add(this.r10);
             this.calendarGroup.Controls.Add(this.w10);
             this.calendarGroup.Controls.Add(this.t10);
             this.calendarGroup.Controls.Add(this.m10);
             this.calendarGroup.Controls.Add(this.f11);
-            this.calendarGroup.Controls.Add(this.r11);
             this.calendarGroup.Controls.Add(this.w11);
-            this.calendarGroup.Controls.Add(this.t11);
             this.calendarGroup.Controls.Add(this.m11);
             this.calendarGroup.Controls.Add(this.f12);
-            this.calendarGroup.Controls.Add(this.r12);
             this.calendarGroup.Controls.Add(this.w12);
-            this.calendarGroup.Controls.Add(this.t12);
             this.calendarGroup.Controls.Add(this.m12);
             this.calendarGroup.Controls.Add(this.f1);
-            this.calendarGroup.Controls.Add(this.r1);
             this.calendarGroup.Controls.Add(this.w1);
-            this.calendarGroup.Controls.Add(this.t1);
             this.calendarGroup.Controls.Add(this.m1);
             this.calendarGroup.Controls.Add(this.f2);
-            this.calendarGroup.Controls.Add(this.r2);
             this.calendarGroup.Controls.Add(this.w2);
-            this.calendarGroup.Controls.Add(this.t2);
             this.calendarGroup.Controls.Add(this.m2);
             this.calendarGroup.Location = new System.Drawing.Point(12, 138);
             this.calendarGroup.Name = "calendarGroup";
@@ -239,6 +227,52 @@
             this.calendarGroup.TabIndex = 4;
             this.calendarGroup.TabStop = false;
             this.calendarGroup.Text = "Calendar";
+            // 
+            // fHeader
+            // 
+            this.fHeader.AutoSize = true;
+            this.fHeader.Location = new System.Drawing.Point(466, 29);
+            this.fHeader.Name = "fHeader";
+            this.fHeader.Size = new System.Drawing.Size(35, 13);
+            this.fHeader.TabIndex = 57;
+            this.fHeader.Text = "Friday";
+            this.fHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // rHeader
+            // 
+            this.rHeader.AutoSize = true;
+            this.rHeader.Location = new System.Drawing.Point(351, 29);
+            this.rHeader.Name = "rHeader";
+            this.rHeader.Size = new System.Drawing.Size(51, 13);
+            this.rHeader.TabIndex = 56;
+            this.rHeader.Text = "Thursday";
+            // 
+            // wHeader
+            // 
+            this.wHeader.AutoSize = true;
+            this.wHeader.Location = new System.Drawing.Point(239, 29);
+            this.wHeader.Name = "wHeader";
+            this.wHeader.Size = new System.Drawing.Size(64, 13);
+            this.wHeader.TabIndex = 55;
+            this.wHeader.Text = "Wednesday";
+            // 
+            // tHeader
+            // 
+            this.tHeader.AutoSize = true;
+            this.tHeader.Location = new System.Drawing.Point(138, 29);
+            this.tHeader.Name = "tHeader";
+            this.tHeader.Size = new System.Drawing.Size(48, 13);
+            this.tHeader.TabIndex = 54;
+            this.tHeader.Text = "Tuesday";
+            // 
+            // mHeader
+            // 
+            this.mHeader.AutoSize = true;
+            this.mHeader.Location = new System.Drawing.Point(34, 29);
+            this.mHeader.Name = "mHeader";
+            this.mHeader.Size = new System.Drawing.Size(45, 13);
+            this.mHeader.TabIndex = 53;
+            this.mHeader.Text = "Monday";
             // 
             // f3
             // 
@@ -248,14 +282,6 @@
             this.f3.TabIndex = 52;
             this.f3.Text = "3 PM";
             // 
-            // r3
-            // 
-            this.r3.Location = new System.Drawing.Point(329, 363);
-            this.r3.Name = "r3";
-            this.r3.Size = new System.Drawing.Size(101, 37);
-            this.r3.TabIndex = 51;
-            this.r3.Text = "";
-            // 
             // w3
             // 
             this.w3.Location = new System.Drawing.Point(222, 363);
@@ -263,14 +289,6 @@
             this.w3.Size = new System.Drawing.Size(101, 37);
             this.w3.TabIndex = 50;
             this.w3.Text = "3 PM";
-            // 
-            // t3
-            // 
-            this.t3.Location = new System.Drawing.Point(115, 363);
-            this.t3.Name = "t3";
-            this.t3.Size = new System.Drawing.Size(101, 37);
-            this.t3.TabIndex = 49;
-            this.t3.Text = "";
             // 
             // m3
             // 
@@ -288,14 +306,6 @@
             this.f8.TabIndex = 42;
             this.f8.Text = "8 AM";
             // 
-            // r8
-            // 
-            this.r8.Location = new System.Drawing.Point(327, 62);
-            this.r8.Name = "r8";
-            this.r8.Size = new System.Drawing.Size(101, 37);
-            this.r8.TabIndex = 41;
-            this.r8.Text = "";
-            // 
             // w8
             // 
             this.w8.Location = new System.Drawing.Point(220, 62);
@@ -308,9 +318,10 @@
             // 
             this.t8.Location = new System.Drawing.Point(113, 62);
             this.t8.Name = "t8";
-            this.t8.Size = new System.Drawing.Size(101, 37);
+            this.t8.Size = new System.Drawing.Size(101, 61);
             this.t8.TabIndex = 39;
-            this.t8.Text = "";
+            this.t8.Text = "8 - 9:15 AM";
+            this.t8.TextChanged += new System.EventHandler(this.t8_TextChanged);
             // 
             // m8
             // 
@@ -328,14 +339,6 @@
             this.f9.TabIndex = 37;
             this.f9.Text = "9 AM";
             // 
-            // r9
-            // 
-            this.r9.Location = new System.Drawing.Point(327, 105);
-            this.r9.Name = "r9";
-            this.r9.Size = new System.Drawing.Size(101, 37);
-            this.r9.TabIndex = 36;
-            this.r9.Text = "";
-            // 
             // w9
             // 
             this.w9.Location = new System.Drawing.Point(220, 105);
@@ -343,14 +346,6 @@
             this.w9.Size = new System.Drawing.Size(101, 37);
             this.w9.TabIndex = 35;
             this.w9.Text = "9 AM";
-            // 
-            // t9
-            // 
-            this.t9.Location = new System.Drawing.Point(113, 105);
-            this.t9.Name = "t9";
-            this.t9.Size = new System.Drawing.Size(101, 37);
-            this.t9.TabIndex = 34;
-            this.t9.Text = "";
             // 
             // m9
             // 
@@ -368,14 +363,6 @@
             this.f10.TabIndex = 32;
             this.f10.Text = "10 AM";
             // 
-            // r10
-            // 
-            this.r10.Location = new System.Drawing.Point(327, 148);
-            this.r10.Name = "r10";
-            this.r10.Size = new System.Drawing.Size(101, 37);
-            this.r10.TabIndex = 31;
-            this.r10.Text = "";
-            // 
             // w10
             // 
             this.w10.Location = new System.Drawing.Point(220, 148);
@@ -388,9 +375,9 @@
             // 
             this.t10.Location = new System.Drawing.Point(113, 148);
             this.t10.Name = "t10";
-            this.t10.Size = new System.Drawing.Size(101, 37);
+            this.t10.Size = new System.Drawing.Size(101, 54);
             this.t10.TabIndex = 29;
-            this.t10.Text = "";
+            this.t10.Text = "10:05 - 11:20 AM";
             // 
             // m10
             // 
@@ -408,14 +395,6 @@
             this.f11.TabIndex = 27;
             this.f11.Text = "11 AM";
             // 
-            // r11
-            // 
-            this.r11.Location = new System.Drawing.Point(327, 191);
-            this.r11.Name = "r11";
-            this.r11.Size = new System.Drawing.Size(101, 37);
-            this.r11.TabIndex = 26;
-            this.r11.Text = "";
-            // 
             // w11
             // 
             this.w11.Location = new System.Drawing.Point(220, 191);
@@ -424,14 +403,6 @@
             this.w11.TabIndex = 25;
             this.w11.Text = "11 AM";
             this.w11.TextChanged += new System.EventHandler(this.richTextBox18_TextChanged);
-            // 
-            // t11
-            // 
-            this.t11.Location = new System.Drawing.Point(113, 191);
-            this.t11.Name = "t11";
-            this.t11.Size = new System.Drawing.Size(101, 37);
-            this.t11.TabIndex = 24;
-            this.t11.Text = "";
             // 
             // m11
             // 
@@ -449,14 +420,6 @@
             this.f12.TabIndex = 22;
             this.f12.Text = "12 PM";
             // 
-            // r12
-            // 
-            this.r12.Location = new System.Drawing.Point(327, 234);
-            this.r12.Name = "r12";
-            this.r12.Size = new System.Drawing.Size(101, 37);
-            this.r12.TabIndex = 21;
-            this.r12.Text = "";
-            // 
             // w12
             // 
             this.w12.Location = new System.Drawing.Point(220, 234);
@@ -464,14 +427,6 @@
             this.w12.Size = new System.Drawing.Size(101, 37);
             this.w12.TabIndex = 20;
             this.w12.Text = "12 PM";
-            // 
-            // t12
-            // 
-            this.t12.Location = new System.Drawing.Point(113, 234);
-            this.t12.Name = "t12";
-            this.t12.Size = new System.Drawing.Size(101, 37);
-            this.t12.TabIndex = 19;
-            this.t12.Text = "";
             // 
             // m12
             // 
@@ -489,14 +444,6 @@
             this.f1.TabIndex = 17;
             this.f1.Text = "1 PM";
             // 
-            // r1
-            // 
-            this.r1.Location = new System.Drawing.Point(327, 277);
-            this.r1.Name = "r1";
-            this.r1.Size = new System.Drawing.Size(101, 37);
-            this.r1.TabIndex = 16;
-            this.r1.Text = "";
-            // 
             // w1
             // 
             this.w1.Location = new System.Drawing.Point(220, 277);
@@ -504,14 +451,6 @@
             this.w1.Size = new System.Drawing.Size(101, 37);
             this.w1.TabIndex = 15;
             this.w1.Text = "1 PM";
-            // 
-            // t1
-            // 
-            this.t1.Location = new System.Drawing.Point(113, 277);
-            this.t1.Name = "t1";
-            this.t1.Size = new System.Drawing.Size(101, 37);
-            this.t1.TabIndex = 14;
-            this.t1.Text = "";
             // 
             // m1
             // 
@@ -529,14 +468,6 @@
             this.f2.TabIndex = 12;
             this.f2.Text = "2 PM";
             // 
-            // r2
-            // 
-            this.r2.Location = new System.Drawing.Point(327, 320);
-            this.r2.Name = "r2";
-            this.r2.Size = new System.Drawing.Size(101, 37);
-            this.r2.TabIndex = 11;
-            this.r2.Text = "";
-            // 
             // w2
             // 
             this.w2.Location = new System.Drawing.Point(220, 320);
@@ -544,14 +475,6 @@
             this.w2.Size = new System.Drawing.Size(101, 37);
             this.w2.TabIndex = 10;
             this.w2.Text = "2 PM";
-            // 
-            // t2
-            // 
-            this.t2.Location = new System.Drawing.Point(113, 320);
-            this.t2.Name = "t2";
-            this.t2.Size = new System.Drawing.Size(101, 37);
-            this.t2.TabIndex = 9;
-            this.t2.Text = "";
             // 
             // m2
             // 
@@ -561,51 +484,69 @@
             this.m2.TabIndex = 8;
             this.m2.Text = "2 PM";
             // 
-            // mHeader
+            // r8
             // 
-            this.mHeader.AutoSize = true;
-            this.mHeader.Location = new System.Drawing.Point(34, 29);
-            this.mHeader.Name = "mHeader";
-            this.mHeader.Size = new System.Drawing.Size(45, 13);
-            this.mHeader.TabIndex = 53;
-            this.mHeader.Text = "Monday";
+            this.r8.Location = new System.Drawing.Point(327, 62);
+            this.r8.Name = "r8";
+            this.r8.Size = new System.Drawing.Size(101, 61);
+            this.r8.TabIndex = 58;
+            this.r8.Text = "8 - 9:15AM";
             // 
-            // tHeader
+            // t1130
             // 
-            this.tHeader.AutoSize = true;
-            this.tHeader.Location = new System.Drawing.Point(138, 29);
-            this.tHeader.Name = "tHeader";
-            this.tHeader.Size = new System.Drawing.Size(48, 13);
-            this.tHeader.TabIndex = 54;
-            this.tHeader.Text = "Tuesday";
+            this.t1130.Location = new System.Drawing.Point(113, 208);
+            this.t1130.Name = "t1130";
+            this.t1130.Size = new System.Drawing.Size(101, 54);
+            this.t1130.TabIndex = 59;
+            this.t1130.Text = "11:30 - 12:45 PM";
             // 
-            // wHeader
+            // r10
             // 
-            this.wHeader.AutoSize = true;
-            this.wHeader.Location = new System.Drawing.Point(239, 29);
-            this.wHeader.Name = "wHeader";
-            this.wHeader.Size = new System.Drawing.Size(64, 13);
-            this.wHeader.TabIndex = 55;
-            this.wHeader.Text = "Wednesday";
+            this.r10.Location = new System.Drawing.Point(327, 148);
+            this.r10.Name = "r10";
+            this.r10.Size = new System.Drawing.Size(101, 54);
+            this.r10.TabIndex = 60;
+            this.r10.Text = "10:05 - 11:20 AM";
             // 
-            // rHeader
+            // r1130
             // 
-            this.rHeader.AutoSize = true;
-            this.rHeader.Location = new System.Drawing.Point(351, 29);
-            this.rHeader.Name = "rHeader";
-            this.rHeader.Size = new System.Drawing.Size(51, 13);
-            this.rHeader.TabIndex = 56;
-            this.rHeader.Text = "Thursday";
+            this.r1130.Location = new System.Drawing.Point(327, 208);
+            this.r1130.Name = "r1130";
+            this.r1130.Size = new System.Drawing.Size(101, 54);
+            this.r1130.TabIndex = 61;
+            this.r1130.Text = "11:30 - 12:45 PM";
             // 
-            // fHeader
+            // t1
             // 
-            this.fHeader.AutoSize = true;
-            this.fHeader.Location = new System.Drawing.Point(466, 29);
-            this.fHeader.Name = "fHeader";
-            this.fHeader.Size = new System.Drawing.Size(35, 13);
-            this.fHeader.TabIndex = 57;
-            this.fHeader.Text = "Friday";
-            this.fHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.t1.Location = new System.Drawing.Point(113, 277);
+            this.t1.Name = "t1";
+            this.t1.Size = new System.Drawing.Size(101, 54);
+            this.t1.TabIndex = 62;
+            this.t1.Text = "1 - 2:15 PM";
+            // 
+            // t230
+            // 
+            this.t230.Location = new System.Drawing.Point(113, 337);
+            this.t230.Name = "t230";
+            this.t230.Size = new System.Drawing.Size(101, 54);
+            this.t230.TabIndex = 63;
+            this.t230.Text = "2:30 - 3:45 PM";
+            // 
+            // r1
+            // 
+            this.r1.Location = new System.Drawing.Point(327, 277);
+            this.r1.Name = "r1";
+            this.r1.Size = new System.Drawing.Size(101, 54);
+            this.r1.TabIndex = 64;
+            this.r1.Text = "1 - 2:15 PM";
+            // 
+            // r230
+            // 
+            this.r230.Location = new System.Drawing.Point(327, 337);
+            this.r230.Name = "r230";
+            this.r230.Size = new System.Drawing.Size(101, 54);
+            this.r230.TabIndex = 65;
+            this.r230.Text = "2:30 - 3:45 PM";
             // 
             // Form1
             // 
@@ -641,50 +582,44 @@
         private System.Windows.Forms.CheckBox courseCheckBox;
         private System.Windows.Forms.GroupBox calendarGroup;
         private System.Windows.Forms.RichTextBox f3;
-        private System.Windows.Forms.RichTextBox r3;
         private System.Windows.Forms.RichTextBox w3;
-        private System.Windows.Forms.RichTextBox t3;
         private System.Windows.Forms.RichTextBox m3;
         private System.Windows.Forms.RichTextBox f8;
-        private System.Windows.Forms.RichTextBox r8;
         private System.Windows.Forms.RichTextBox w8;
         private System.Windows.Forms.RichTextBox t8;
         private System.Windows.Forms.RichTextBox m8;
         private System.Windows.Forms.RichTextBox f9;
-        private System.Windows.Forms.RichTextBox r9;
         private System.Windows.Forms.RichTextBox w9;
-        private System.Windows.Forms.RichTextBox t9;
         private System.Windows.Forms.RichTextBox m9;
         private System.Windows.Forms.RichTextBox f10;
-        private System.Windows.Forms.RichTextBox r10;
         private System.Windows.Forms.RichTextBox w10;
         private System.Windows.Forms.RichTextBox t10;
         private System.Windows.Forms.RichTextBox m10;
         private System.Windows.Forms.RichTextBox f11;
-        private System.Windows.Forms.RichTextBox r11;
         private System.Windows.Forms.RichTextBox w11;
-        private System.Windows.Forms.RichTextBox t11;
         private System.Windows.Forms.RichTextBox m11;
         private System.Windows.Forms.RichTextBox f12;
-        private System.Windows.Forms.RichTextBox r12;
         private System.Windows.Forms.RichTextBox w12;
-        private System.Windows.Forms.RichTextBox t12;
         private System.Windows.Forms.RichTextBox m12;
         private System.Windows.Forms.RichTextBox f1;
-        private System.Windows.Forms.RichTextBox r1;
         private System.Windows.Forms.RichTextBox w1;
-        private System.Windows.Forms.RichTextBox t1;
         private System.Windows.Forms.RichTextBox m1;
         private System.Windows.Forms.RichTextBox f2;
-        private System.Windows.Forms.RichTextBox r2;
         private System.Windows.Forms.RichTextBox w2;
-        private System.Windows.Forms.RichTextBox t2;
         private System.Windows.Forms.RichTextBox m2;
         private System.Windows.Forms.Label fHeader;
         private System.Windows.Forms.Label rHeader;
         private System.Windows.Forms.Label wHeader;
         private System.Windows.Forms.Label tHeader;
         private System.Windows.Forms.Label mHeader;
+        private System.Windows.Forms.RichTextBox r8;
+        private System.Windows.Forms.RichTextBox r230;
+        private System.Windows.Forms.RichTextBox r1;
+        private System.Windows.Forms.RichTextBox t230;
+        private System.Windows.Forms.RichTextBox t1;
+        private System.Windows.Forms.RichTextBox r1130;
+        private System.Windows.Forms.RichTextBox r10;
+        private System.Windows.Forms.RichTextBox t1130;
     }
 }
 
