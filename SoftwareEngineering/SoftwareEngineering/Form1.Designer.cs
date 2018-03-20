@@ -33,21 +33,67 @@
             this.searchGroup = new System.Windows.Forms.GroupBox();
             this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.resultsGroup = new System.Windows.Forms.GroupBox();
-            this.calendarGroup = new System.Windows.Forms.GroupBox();
-            this.courseCheckBox = new System.Windows.Forms.CheckBox();
-            this.courseName = new System.Windows.Forms.Label();
-            this.courseLocation = new System.Windows.Forms.Label();
-            this.courseDateTime = new System.Windows.Forms.Label();
             this.courseSeatsAvail = new System.Windows.Forms.Label();
+            this.courseDateTime = new System.Windows.Forms.Label();
+            this.courseLocation = new System.Windows.Forms.Label();
+            this.courseName = new System.Windows.Forms.Label();
+            this.courseCheckBox = new System.Windows.Forms.CheckBox();
+            this.calendarGroup = new System.Windows.Forms.GroupBox();
+            this.m2 = new System.Windows.Forms.RichTextBox();
+            this.t2 = new System.Windows.Forms.RichTextBox();
+            this.w2 = new System.Windows.Forms.RichTextBox();
+            this.r2 = new System.Windows.Forms.RichTextBox();
+            this.f2 = new System.Windows.Forms.RichTextBox();
+            this.f1 = new System.Windows.Forms.RichTextBox();
+            this.r1 = new System.Windows.Forms.RichTextBox();
+            this.w1 = new System.Windows.Forms.RichTextBox();
+            this.t1 = new System.Windows.Forms.RichTextBox();
+            this.m1 = new System.Windows.Forms.RichTextBox();
+            this.f12 = new System.Windows.Forms.RichTextBox();
+            this.r12 = new System.Windows.Forms.RichTextBox();
+            this.w12 = new System.Windows.Forms.RichTextBox();
+            this.t12 = new System.Windows.Forms.RichTextBox();
+            this.m12 = new System.Windows.Forms.RichTextBox();
+            this.f11 = new System.Windows.Forms.RichTextBox();
+            this.r11 = new System.Windows.Forms.RichTextBox();
+            this.w11 = new System.Windows.Forms.RichTextBox();
+            this.t11 = new System.Windows.Forms.RichTextBox();
+            this.m11 = new System.Windows.Forms.RichTextBox();
+            this.f10 = new System.Windows.Forms.RichTextBox();
+            this.r10 = new System.Windows.Forms.RichTextBox();
+            this.w10 = new System.Windows.Forms.RichTextBox();
+            this.t10 = new System.Windows.Forms.RichTextBox();
+            this.m10 = new System.Windows.Forms.RichTextBox();
+            this.f9 = new System.Windows.Forms.RichTextBox();
+            this.r9 = new System.Windows.Forms.RichTextBox();
+            this.w9 = new System.Windows.Forms.RichTextBox();
+            this.t9 = new System.Windows.Forms.RichTextBox();
+            this.m9 = new System.Windows.Forms.RichTextBox();
+            this.f8 = new System.Windows.Forms.RichTextBox();
+            this.r8 = new System.Windows.Forms.RichTextBox();
+            this.w8 = new System.Windows.Forms.RichTextBox();
+            this.t8 = new System.Windows.Forms.RichTextBox();
+            this.m8 = new System.Windows.Forms.RichTextBox();
+            this.fridayHeader = new System.Windows.Forms.RichTextBox();
+            this.thursdayHeader = new System.Windows.Forms.RichTextBox();
+            this.wednesdayHeader = new System.Windows.Forms.RichTextBox();
+            this.tuesdayHeader = new System.Windows.Forms.RichTextBox();
+            this.mondayHeader = new System.Windows.Forms.RichTextBox();
+            this.f3 = new System.Windows.Forms.RichTextBox();
+            this.r3 = new System.Windows.Forms.RichTextBox();
+            this.w3 = new System.Windows.Forms.RichTextBox();
+            this.t3 = new System.Windows.Forms.RichTextBox();
+            this.m3 = new System.Windows.Forms.RichTextBox();
             this.searchGroup.SuspendLayout();
             this.resultsGroup.SuspendLayout();
+            this.calendarGroup.SuspendLayout();
             this.SuspendLayout();
             // 
             // searchBox
             // 
-            this.searchBox.Location = new System.Drawing.Point(187, 31);
+            this.searchBox.Location = new System.Drawing.Point(165, 31);
             this.searchBox.Name = "searchBox";
-            this.searchBox.Size = new System.Drawing.Size(310, 20);
+            this.searchBox.Size = new System.Drawing.Size(356, 20);
             this.searchBox.TabIndex = 0;
             // 
             // searchDropDown
@@ -57,7 +103,7 @@
             "Course Code"});
             this.searchDropDown.Location = new System.Drawing.Point(22, 30);
             this.searchDropDown.Name = "searchDropDown";
-            this.searchDropDown.Size = new System.Drawing.Size(145, 21);
+            this.searchDropDown.Size = new System.Drawing.Size(102, 21);
             this.searchDropDown.TabIndex = 1;
             this.searchDropDown.Text = "Course Code";
             // 
@@ -68,7 +114,7 @@
             this.searchGroup.Controls.Add(this.searchDropDown);
             this.searchGroup.Location = new System.Drawing.Point(12, 12);
             this.searchGroup.Name = "searchGroup";
-            this.searchGroup.Size = new System.Drawing.Size(515, 111);
+            this.searchGroup.Size = new System.Drawing.Size(543, 111);
             this.searchGroup.TabIndex = 2;
             this.searchGroup.TabStop = false;
             this.searchGroup.Text = "Search";
@@ -87,73 +133,479 @@
             this.resultsGroup.Controls.Add(this.courseLocation);
             this.resultsGroup.Controls.Add(this.courseName);
             this.resultsGroup.Controls.Add(this.courseCheckBox);
-            this.resultsGroup.Location = new System.Drawing.Point(548, 12);
+            this.resultsGroup.Location = new System.Drawing.Point(573, 12);
             this.resultsGroup.Name = "resultsGroup";
-            this.resultsGroup.Size = new System.Drawing.Size(394, 492);
+            this.resultsGroup.Size = new System.Drawing.Size(391, 536);
             this.resultsGroup.TabIndex = 3;
             this.resultsGroup.TabStop = false;
             this.resultsGroup.Text = "Results";
             // 
-            // calendarGroup
+            // courseSeatsAvail
             // 
-            this.calendarGroup.Location = new System.Drawing.Point(12, 138);
-            this.calendarGroup.Name = "calendarGroup";
-            this.calendarGroup.Size = new System.Drawing.Size(515, 366);
-            this.calendarGroup.TabIndex = 4;
-            this.calendarGroup.TabStop = false;
-            this.calendarGroup.Text = "Calendar";
+            this.courseSeatsAvail.AutoSize = true;
+            this.courseSeatsAvail.Location = new System.Drawing.Point(264, 57);
+            this.courseSeatsAvail.Name = "courseSeatsAvail";
+            this.courseSeatsAvail.Size = new System.Drawing.Size(93, 13);
+            this.courseSeatsAvail.TabIndex = 4;
+            this.courseSeatsAvail.Text = "Seats Available: #";
+            // 
+            // courseDateTime
+            // 
+            this.courseDateTime.AutoSize = true;
+            this.courseDateTime.Location = new System.Drawing.Point(264, 33);
+            this.courseDateTime.Name = "courseDateTime";
+            this.courseDateTime.Size = new System.Drawing.Size(73, 13);
+            this.courseDateTime.TabIndex = 3;
+            this.courseDateTime.Text = "Day and Time";
+            // 
+            // courseLocation
+            // 
+            this.courseLocation.AutoSize = true;
+            this.courseLocation.Location = new System.Drawing.Point(148, 57);
+            this.courseLocation.Name = "courseLocation";
+            this.courseLocation.Size = new System.Drawing.Size(48, 13);
+            this.courseLocation.TabIndex = 2;
+            this.courseLocation.Text = "Location";
+            // 
+            // courseName
+            // 
+            this.courseName.AutoSize = true;
+            this.courseName.Location = new System.Drawing.Point(148, 33);
+            this.courseName.Name = "courseName";
+            this.courseName.Size = new System.Drawing.Size(71, 13);
+            this.courseName.TabIndex = 1;
+            this.courseName.Text = "Course Name";
             // 
             // courseCheckBox
             // 
             this.courseCheckBox.AutoSize = true;
-            this.courseCheckBox.Location = new System.Drawing.Point(26, 32);
+            this.courseCheckBox.Location = new System.Drawing.Point(24, 32);
             this.courseCheckBox.Name = "courseCheckBox";
             this.courseCheckBox.Size = new System.Drawing.Size(87, 17);
             this.courseCheckBox.TabIndex = 0;
             this.courseCheckBox.Text = "Course Code";
             this.courseCheckBox.UseVisualStyleBackColor = true;
             // 
-            // courseName
+            // calendarGroup
             // 
-            this.courseName.AutoSize = true;
-            this.courseName.Location = new System.Drawing.Point(150, 33);
-            this.courseName.Name = "courseName";
-            this.courseName.Size = new System.Drawing.Size(71, 13);
-            this.courseName.TabIndex = 1;
-            this.courseName.Text = "Course Name";
+            this.calendarGroup.Controls.Add(this.f3);
+            this.calendarGroup.Controls.Add(this.r3);
+            this.calendarGroup.Controls.Add(this.w3);
+            this.calendarGroup.Controls.Add(this.t3);
+            this.calendarGroup.Controls.Add(this.m3);
+            this.calendarGroup.Controls.Add(this.fridayHeader);
+            this.calendarGroup.Controls.Add(this.thursdayHeader);
+            this.calendarGroup.Controls.Add(this.wednesdayHeader);
+            this.calendarGroup.Controls.Add(this.tuesdayHeader);
+            this.calendarGroup.Controls.Add(this.mondayHeader);
+            this.calendarGroup.Controls.Add(this.f8);
+            this.calendarGroup.Controls.Add(this.r8);
+            this.calendarGroup.Controls.Add(this.w8);
+            this.calendarGroup.Controls.Add(this.t8);
+            this.calendarGroup.Controls.Add(this.m8);
+            this.calendarGroup.Controls.Add(this.f9);
+            this.calendarGroup.Controls.Add(this.r9);
+            this.calendarGroup.Controls.Add(this.w9);
+            this.calendarGroup.Controls.Add(this.t9);
+            this.calendarGroup.Controls.Add(this.m9);
+            this.calendarGroup.Controls.Add(this.f10);
+            this.calendarGroup.Controls.Add(this.r10);
+            this.calendarGroup.Controls.Add(this.w10);
+            this.calendarGroup.Controls.Add(this.t10);
+            this.calendarGroup.Controls.Add(this.m10);
+            this.calendarGroup.Controls.Add(this.f11);
+            this.calendarGroup.Controls.Add(this.r11);
+            this.calendarGroup.Controls.Add(this.w11);
+            this.calendarGroup.Controls.Add(this.t11);
+            this.calendarGroup.Controls.Add(this.m11);
+            this.calendarGroup.Controls.Add(this.f12);
+            this.calendarGroup.Controls.Add(this.r12);
+            this.calendarGroup.Controls.Add(this.w12);
+            this.calendarGroup.Controls.Add(this.t12);
+            this.calendarGroup.Controls.Add(this.m12);
+            this.calendarGroup.Controls.Add(this.f1);
+            this.calendarGroup.Controls.Add(this.r1);
+            this.calendarGroup.Controls.Add(this.w1);
+            this.calendarGroup.Controls.Add(this.t1);
+            this.calendarGroup.Controls.Add(this.m1);
+            this.calendarGroup.Controls.Add(this.f2);
+            this.calendarGroup.Controls.Add(this.r2);
+            this.calendarGroup.Controls.Add(this.w2);
+            this.calendarGroup.Controls.Add(this.t2);
+            this.calendarGroup.Controls.Add(this.m2);
+            this.calendarGroup.Location = new System.Drawing.Point(12, 138);
+            this.calendarGroup.Name = "calendarGroup";
+            this.calendarGroup.Size = new System.Drawing.Size(543, 410);
+            this.calendarGroup.TabIndex = 4;
+            this.calendarGroup.TabStop = false;
+            this.calendarGroup.Text = "Calendar";
             // 
-            // courseLocation
+            // m2
             // 
-            this.courseLocation.AutoSize = true;
-            this.courseLocation.Location = new System.Drawing.Point(150, 57);
-            this.courseLocation.Name = "courseLocation";
-            this.courseLocation.Size = new System.Drawing.Size(48, 13);
-            this.courseLocation.TabIndex = 2;
-            this.courseLocation.Text = "Location";
+            this.m2.Location = new System.Drawing.Point(6, 320);
+            this.m2.Name = "m2";
+            this.m2.Size = new System.Drawing.Size(101, 37);
+            this.m2.TabIndex = 8;
+            this.m2.Text = "";
             // 
-            // courseDateTime
+            // t2
             // 
-            this.courseDateTime.AutoSize = true;
-            this.courseDateTime.Location = new System.Drawing.Point(266, 33);
-            this.courseDateTime.Name = "courseDateTime";
-            this.courseDateTime.Size = new System.Drawing.Size(73, 13);
-            this.courseDateTime.TabIndex = 3;
-            this.courseDateTime.Text = "Day and Time";
+            this.t2.Location = new System.Drawing.Point(113, 320);
+            this.t2.Name = "t2";
+            this.t2.Size = new System.Drawing.Size(101, 37);
+            this.t2.TabIndex = 9;
+            this.t2.Text = "";
             // 
-            // courseSeatsAvail
+            // w2
             // 
-            this.courseSeatsAvail.AutoSize = true;
-            this.courseSeatsAvail.Location = new System.Drawing.Point(266, 57);
-            this.courseSeatsAvail.Name = "courseSeatsAvail";
-            this.courseSeatsAvail.Size = new System.Drawing.Size(93, 13);
-            this.courseSeatsAvail.TabIndex = 4;
-            this.courseSeatsAvail.Text = "Seats Available: #";
+            this.w2.Location = new System.Drawing.Point(220, 320);
+            this.w2.Name = "w2";
+            this.w2.Size = new System.Drawing.Size(101, 37);
+            this.w2.TabIndex = 10;
+            this.w2.Text = "";
+            // 
+            // r2
+            // 
+            this.r2.Location = new System.Drawing.Point(327, 320);
+            this.r2.Name = "r2";
+            this.r2.Size = new System.Drawing.Size(101, 37);
+            this.r2.TabIndex = 11;
+            this.r2.Text = "";
+            // 
+            // f2
+            // 
+            this.f2.Location = new System.Drawing.Point(434, 320);
+            this.f2.Name = "f2";
+            this.f2.Size = new System.Drawing.Size(101, 37);
+            this.f2.TabIndex = 12;
+            this.f2.Text = "";
+            // 
+            // f1
+            // 
+            this.f1.Location = new System.Drawing.Point(434, 277);
+            this.f1.Name = "f1";
+            this.f1.Size = new System.Drawing.Size(101, 37);
+            this.f1.TabIndex = 17;
+            this.f1.Text = "";
+            // 
+            // r1
+            // 
+            this.r1.Location = new System.Drawing.Point(327, 277);
+            this.r1.Name = "r1";
+            this.r1.Size = new System.Drawing.Size(101, 37);
+            this.r1.TabIndex = 16;
+            this.r1.Text = "";
+            // 
+            // w1
+            // 
+            this.w1.Location = new System.Drawing.Point(220, 277);
+            this.w1.Name = "w1";
+            this.w1.Size = new System.Drawing.Size(101, 37);
+            this.w1.TabIndex = 15;
+            this.w1.Text = "";
+            // 
+            // t1
+            // 
+            this.t1.Location = new System.Drawing.Point(113, 277);
+            this.t1.Name = "t1";
+            this.t1.Size = new System.Drawing.Size(101, 37);
+            this.t1.TabIndex = 14;
+            this.t1.Text = "";
+            // 
+            // m1
+            // 
+            this.m1.Location = new System.Drawing.Point(6, 277);
+            this.m1.Name = "m1";
+            this.m1.Size = new System.Drawing.Size(101, 37);
+            this.m1.TabIndex = 13;
+            this.m1.Text = "";
+            // 
+            // f12
+            // 
+            this.f12.Location = new System.Drawing.Point(434, 234);
+            this.f12.Name = "f12";
+            this.f12.Size = new System.Drawing.Size(101, 37);
+            this.f12.TabIndex = 22;
+            this.f12.Text = "";
+            // 
+            // r12
+            // 
+            this.r12.Location = new System.Drawing.Point(327, 234);
+            this.r12.Name = "r12";
+            this.r12.Size = new System.Drawing.Size(101, 37);
+            this.r12.TabIndex = 21;
+            this.r12.Text = "";
+            // 
+            // w12
+            // 
+            this.w12.Location = new System.Drawing.Point(220, 234);
+            this.w12.Name = "w12";
+            this.w12.Size = new System.Drawing.Size(101, 37);
+            this.w12.TabIndex = 20;
+            this.w12.Text = "";
+            // 
+            // t12
+            // 
+            this.t12.Location = new System.Drawing.Point(113, 234);
+            this.t12.Name = "t12";
+            this.t12.Size = new System.Drawing.Size(101, 37);
+            this.t12.TabIndex = 19;
+            this.t12.Text = "";
+            // 
+            // m12
+            // 
+            this.m12.Location = new System.Drawing.Point(6, 234);
+            this.m12.Name = "m12";
+            this.m12.Size = new System.Drawing.Size(101, 37);
+            this.m12.TabIndex = 18;
+            this.m12.Text = "";
+            // 
+            // f11
+            // 
+            this.f11.Location = new System.Drawing.Point(434, 191);
+            this.f11.Name = "f11";
+            this.f11.Size = new System.Drawing.Size(101, 37);
+            this.f11.TabIndex = 27;
+            this.f11.Text = "";
+            // 
+            // r11
+            // 
+            this.r11.Location = new System.Drawing.Point(327, 191);
+            this.r11.Name = "r11";
+            this.r11.Size = new System.Drawing.Size(101, 37);
+            this.r11.TabIndex = 26;
+            this.r11.Text = "";
+            // 
+            // w11
+            // 
+            this.w11.Location = new System.Drawing.Point(220, 191);
+            this.w11.Name = "w11";
+            this.w11.Size = new System.Drawing.Size(101, 37);
+            this.w11.TabIndex = 25;
+            this.w11.Text = "";
+            this.w11.TextChanged += new System.EventHandler(this.richTextBox18_TextChanged);
+            // 
+            // t11
+            // 
+            this.t11.Location = new System.Drawing.Point(113, 191);
+            this.t11.Name = "t11";
+            this.t11.Size = new System.Drawing.Size(101, 37);
+            this.t11.TabIndex = 24;
+            this.t11.Text = "";
+            // 
+            // m11
+            // 
+            this.m11.Location = new System.Drawing.Point(6, 191);
+            this.m11.Name = "m11";
+            this.m11.Size = new System.Drawing.Size(101, 37);
+            this.m11.TabIndex = 23;
+            this.m11.Text = "";
+            // 
+            // f10
+            // 
+            this.f10.Location = new System.Drawing.Point(434, 148);
+            this.f10.Name = "f10";
+            this.f10.Size = new System.Drawing.Size(101, 37);
+            this.f10.TabIndex = 32;
+            this.f10.Text = "";
+            // 
+            // r10
+            // 
+            this.r10.Location = new System.Drawing.Point(327, 148);
+            this.r10.Name = "r10";
+            this.r10.Size = new System.Drawing.Size(101, 37);
+            this.r10.TabIndex = 31;
+            this.r10.Text = "";
+            // 
+            // w10
+            // 
+            this.w10.Location = new System.Drawing.Point(220, 148);
+            this.w10.Name = "w10";
+            this.w10.Size = new System.Drawing.Size(101, 37);
+            this.w10.TabIndex = 30;
+            this.w10.Text = "";
+            // 
+            // t10
+            // 
+            this.t10.Location = new System.Drawing.Point(113, 148);
+            this.t10.Name = "t10";
+            this.t10.Size = new System.Drawing.Size(101, 37);
+            this.t10.TabIndex = 29;
+            this.t10.Text = "";
+            // 
+            // m10
+            // 
+            this.m10.Location = new System.Drawing.Point(6, 148);
+            this.m10.Name = "m10";
+            this.m10.Size = new System.Drawing.Size(101, 37);
+            this.m10.TabIndex = 28;
+            this.m10.Text = "";
+            // 
+            // f9
+            // 
+            this.f9.Location = new System.Drawing.Point(434, 105);
+            this.f9.Name = "f9";
+            this.f9.Size = new System.Drawing.Size(101, 37);
+            this.f9.TabIndex = 37;
+            this.f9.Text = "";
+            // 
+            // r9
+            // 
+            this.r9.Location = new System.Drawing.Point(327, 105);
+            this.r9.Name = "r9";
+            this.r9.Size = new System.Drawing.Size(101, 37);
+            this.r9.TabIndex = 36;
+            this.r9.Text = "";
+            // 
+            // w9
+            // 
+            this.w9.Location = new System.Drawing.Point(220, 105);
+            this.w9.Name = "w9";
+            this.w9.Size = new System.Drawing.Size(101, 37);
+            this.w9.TabIndex = 35;
+            this.w9.Text = "";
+            // 
+            // t9
+            // 
+            this.t9.Location = new System.Drawing.Point(113, 105);
+            this.t9.Name = "t9";
+            this.t9.Size = new System.Drawing.Size(101, 37);
+            this.t9.TabIndex = 34;
+            this.t9.Text = "";
+            // 
+            // m9
+            // 
+            this.m9.Location = new System.Drawing.Point(6, 105);
+            this.m9.Name = "m9";
+            this.m9.Size = new System.Drawing.Size(101, 37);
+            this.m9.TabIndex = 33;
+            this.m9.Text = "";
+            // 
+            // f8
+            // 
+            this.f8.Location = new System.Drawing.Point(434, 62);
+            this.f8.Name = "f8";
+            this.f8.Size = new System.Drawing.Size(101, 37);
+            this.f8.TabIndex = 42;
+            this.f8.Text = "";
+            // 
+            // r8
+            // 
+            this.r8.Location = new System.Drawing.Point(327, 62);
+            this.r8.Name = "r8";
+            this.r8.Size = new System.Drawing.Size(101, 37);
+            this.r8.TabIndex = 41;
+            this.r8.Text = "";
+            // 
+            // w8
+            // 
+            this.w8.Location = new System.Drawing.Point(220, 62);
+            this.w8.Name = "w8";
+            this.w8.Size = new System.Drawing.Size(101, 37);
+            this.w8.TabIndex = 40;
+            this.w8.Text = "";
+            // 
+            // t8
+            // 
+            this.t8.Location = new System.Drawing.Point(113, 62);
+            this.t8.Name = "t8";
+            this.t8.Size = new System.Drawing.Size(101, 37);
+            this.t8.TabIndex = 39;
+            this.t8.Text = "";
+            // 
+            // m8
+            // 
+            this.m8.Location = new System.Drawing.Point(6, 62);
+            this.m8.Name = "m8";
+            this.m8.Size = new System.Drawing.Size(101, 37);
+            this.m8.TabIndex = 38;
+            this.m8.Text = "";
+            // 
+            // fridayHeader
+            // 
+            this.fridayHeader.Location = new System.Drawing.Point(434, 19);
+            this.fridayHeader.Name = "fridayHeader";
+            this.fridayHeader.Size = new System.Drawing.Size(101, 37);
+            this.fridayHeader.TabIndex = 47;
+            this.fridayHeader.Text = "Friday";
+            // 
+            // thursdayHeader
+            // 
+            this.thursdayHeader.Location = new System.Drawing.Point(327, 19);
+            this.thursdayHeader.Name = "thursdayHeader";
+            this.thursdayHeader.Size = new System.Drawing.Size(101, 37);
+            this.thursdayHeader.TabIndex = 46;
+            this.thursdayHeader.Text = "Thursday";
+            // 
+            // wednesdayHeader
+            // 
+            this.wednesdayHeader.Location = new System.Drawing.Point(220, 19);
+            this.wednesdayHeader.Name = "wednesdayHeader";
+            this.wednesdayHeader.Size = new System.Drawing.Size(101, 37);
+            this.wednesdayHeader.TabIndex = 45;
+            this.wednesdayHeader.Text = "Wednesday";
+            // 
+            // tuesdayHeader
+            // 
+            this.tuesdayHeader.Location = new System.Drawing.Point(113, 19);
+            this.tuesdayHeader.Name = "tuesdayHeader";
+            this.tuesdayHeader.Size = new System.Drawing.Size(101, 37);
+            this.tuesdayHeader.TabIndex = 44;
+            this.tuesdayHeader.Text = "Tuesday";
+            // 
+            // mondayHeader
+            // 
+            this.mondayHeader.Location = new System.Drawing.Point(6, 19);
+            this.mondayHeader.Name = "mondayHeader";
+            this.mondayHeader.Size = new System.Drawing.Size(101, 37);
+            this.mondayHeader.TabIndex = 43;
+            this.mondayHeader.Text = "Monday";
+            // 
+            // f3
+            // 
+            this.f3.Location = new System.Drawing.Point(436, 363);
+            this.f3.Name = "f3";
+            this.f3.Size = new System.Drawing.Size(101, 37);
+            this.f3.TabIndex = 52;
+            this.f3.Text = "";
+            // 
+            // r3
+            // 
+            this.r3.Location = new System.Drawing.Point(329, 363);
+            this.r3.Name = "r3";
+            this.r3.Size = new System.Drawing.Size(101, 37);
+            this.r3.TabIndex = 51;
+            this.r3.Text = "";
+            // 
+            // w3
+            // 
+            this.w3.Location = new System.Drawing.Point(222, 363);
+            this.w3.Name = "w3";
+            this.w3.Size = new System.Drawing.Size(101, 37);
+            this.w3.TabIndex = 50;
+            this.w3.Text = "";
+            // 
+            // t3
+            // 
+            this.t3.Location = new System.Drawing.Point(115, 363);
+            this.t3.Name = "t3";
+            this.t3.Size = new System.Drawing.Size(101, 37);
+            this.t3.TabIndex = 49;
+            this.t3.Text = "";
+            // 
+            // m3
+            // 
+            this.m3.Location = new System.Drawing.Point(8, 363);
+            this.m3.Name = "m3";
+            this.m3.Size = new System.Drawing.Size(101, 37);
+            this.m3.TabIndex = 48;
+            this.m3.Text = "";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(954, 516);
+            this.ClientSize = new System.Drawing.Size(977, 557);
             this.Controls.Add(this.calendarGroup);
             this.Controls.Add(this.resultsGroup);
             this.Controls.Add(this.searchGroup);
@@ -163,6 +615,7 @@
             this.searchGroup.PerformLayout();
             this.resultsGroup.ResumeLayout(false);
             this.resultsGroup.PerformLayout();
+            this.calendarGroup.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -180,6 +633,51 @@
         private System.Windows.Forms.Label courseName;
         private System.Windows.Forms.CheckBox courseCheckBox;
         private System.Windows.Forms.GroupBox calendarGroup;
+        private System.Windows.Forms.RichTextBox f3;
+        private System.Windows.Forms.RichTextBox r3;
+        private System.Windows.Forms.RichTextBox w3;
+        private System.Windows.Forms.RichTextBox t3;
+        private System.Windows.Forms.RichTextBox m3;
+        private System.Windows.Forms.RichTextBox fridayHeader;
+        private System.Windows.Forms.RichTextBox thursdayHeader;
+        private System.Windows.Forms.RichTextBox wednesdayHeader;
+        private System.Windows.Forms.RichTextBox tuesdayHeader;
+        private System.Windows.Forms.RichTextBox mondayHeader;
+        private System.Windows.Forms.RichTextBox f8;
+        private System.Windows.Forms.RichTextBox r8;
+        private System.Windows.Forms.RichTextBox w8;
+        private System.Windows.Forms.RichTextBox t8;
+        private System.Windows.Forms.RichTextBox m8;
+        private System.Windows.Forms.RichTextBox f9;
+        private System.Windows.Forms.RichTextBox r9;
+        private System.Windows.Forms.RichTextBox w9;
+        private System.Windows.Forms.RichTextBox t9;
+        private System.Windows.Forms.RichTextBox m9;
+        private System.Windows.Forms.RichTextBox f10;
+        private System.Windows.Forms.RichTextBox r10;
+        private System.Windows.Forms.RichTextBox w10;
+        private System.Windows.Forms.RichTextBox t10;
+        private System.Windows.Forms.RichTextBox m10;
+        private System.Windows.Forms.RichTextBox f11;
+        private System.Windows.Forms.RichTextBox r11;
+        private System.Windows.Forms.RichTextBox w11;
+        private System.Windows.Forms.RichTextBox t11;
+        private System.Windows.Forms.RichTextBox m11;
+        private System.Windows.Forms.RichTextBox f12;
+        private System.Windows.Forms.RichTextBox r12;
+        private System.Windows.Forms.RichTextBox w12;
+        private System.Windows.Forms.RichTextBox t12;
+        private System.Windows.Forms.RichTextBox m12;
+        private System.Windows.Forms.RichTextBox f1;
+        private System.Windows.Forms.RichTextBox r1;
+        private System.Windows.Forms.RichTextBox w1;
+        private System.Windows.Forms.RichTextBox t1;
+        private System.Windows.Forms.RichTextBox m1;
+        private System.Windows.Forms.RichTextBox f2;
+        private System.Windows.Forms.RichTextBox r2;
+        private System.Windows.Forms.RichTextBox w2;
+        private System.Windows.Forms.RichTextBox t2;
+        private System.Windows.Forms.RichTextBox m2;
     }
 }
 

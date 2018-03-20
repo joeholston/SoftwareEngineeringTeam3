@@ -16,5 +16,10 @@ namespace SoftwareEngineering
         {
             InitializeComponent();
         }
+
+        private void richTextBox18_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
