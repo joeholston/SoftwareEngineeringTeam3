@@ -39,51 +39,51 @@
             this.courseName = new System.Windows.Forms.Label();
             this.courseCheckBox = new System.Windows.Forms.CheckBox();
             this.calendarGroup = new System.Windows.Forms.GroupBox();
-            this.m2 = new System.Windows.Forms.RichTextBox();
-            this.t2 = new System.Windows.Forms.RichTextBox();
-            this.w2 = new System.Windows.Forms.RichTextBox();
-            this.r2 = new System.Windows.Forms.RichTextBox();
-            this.f2 = new System.Windows.Forms.RichTextBox();
-            this.f1 = new System.Windows.Forms.RichTextBox();
-            this.r1 = new System.Windows.Forms.RichTextBox();
-            this.w1 = new System.Windows.Forms.RichTextBox();
-            this.t1 = new System.Windows.Forms.RichTextBox();
-            this.m1 = new System.Windows.Forms.RichTextBox();
-            this.f12 = new System.Windows.Forms.RichTextBox();
-            this.r12 = new System.Windows.Forms.RichTextBox();
-            this.w12 = new System.Windows.Forms.RichTextBox();
-            this.t12 = new System.Windows.Forms.RichTextBox();
-            this.m12 = new System.Windows.Forms.RichTextBox();
-            this.f11 = new System.Windows.Forms.RichTextBox();
-            this.r11 = new System.Windows.Forms.RichTextBox();
-            this.w11 = new System.Windows.Forms.RichTextBox();
-            this.t11 = new System.Windows.Forms.RichTextBox();
-            this.m11 = new System.Windows.Forms.RichTextBox();
-            this.f10 = new System.Windows.Forms.RichTextBox();
-            this.r10 = new System.Windows.Forms.RichTextBox();
-            this.w10 = new System.Windows.Forms.RichTextBox();
-            this.t10 = new System.Windows.Forms.RichTextBox();
-            this.m10 = new System.Windows.Forms.RichTextBox();
-            this.f9 = new System.Windows.Forms.RichTextBox();
-            this.r9 = new System.Windows.Forms.RichTextBox();
-            this.w9 = new System.Windows.Forms.RichTextBox();
-            this.t9 = new System.Windows.Forms.RichTextBox();
-            this.m9 = new System.Windows.Forms.RichTextBox();
-            this.f8 = new System.Windows.Forms.RichTextBox();
-            this.r8 = new System.Windows.Forms.RichTextBox();
-            this.w8 = new System.Windows.Forms.RichTextBox();
-            this.t8 = new System.Windows.Forms.RichTextBox();
-            this.m8 = new System.Windows.Forms.RichTextBox();
-            this.fridayHeader = new System.Windows.Forms.RichTextBox();
-            this.thursdayHeader = new System.Windows.Forms.RichTextBox();
-            this.wednesdayHeader = new System.Windows.Forms.RichTextBox();
-            this.tuesdayHeader = new System.Windows.Forms.RichTextBox();
-            this.mondayHeader = new System.Windows.Forms.RichTextBox();
             this.f3 = new System.Windows.Forms.RichTextBox();
             this.r3 = new System.Windows.Forms.RichTextBox();
             this.w3 = new System.Windows.Forms.RichTextBox();
             this.t3 = new System.Windows.Forms.RichTextBox();
             this.m3 = new System.Windows.Forms.RichTextBox();
+            this.f8 = new System.Windows.Forms.RichTextBox();
+            this.r8 = new System.Windows.Forms.RichTextBox();
+            this.w8 = new System.Windows.Forms.RichTextBox();
+            this.t8 = new System.Windows.Forms.RichTextBox();
+            this.m8 = new System.Windows.Forms.RichTextBox();
+            this.f9 = new System.Windows.Forms.RichTextBox();
+            this.r9 = new System.Windows.Forms.RichTextBox();
+            this.w9 = new System.Windows.Forms.RichTextBox();
+            this.t9 = new System.Windows.Forms.RichTextBox();
+            this.m9 = new System.Windows.Forms.RichTextBox();
+            this.f10 = new System.Windows.Forms.RichTextBox();
+            this.r10 = new System.Windows.Forms.RichTextBox();
+            this.w10 = new System.Windows.Forms.RichTextBox();
+            this.t10 = new System.Windows.Forms.RichTextBox();
+            this.m10 = new System.Windows.Forms.RichTextBox();
+            this.f11 = new System.Windows.Forms.RichTextBox();
+            this.r11 = new System.Windows.Forms.RichTextBox();
+            this.w11 = new System.Windows.Forms.RichTextBox();
+            this.t11 = new System.Windows.Forms.RichTextBox();
+            this.m11 = new System.Windows.Forms.RichTextBox();
+            this.f12 = new System.Windows.Forms.RichTextBox();
+            this.r12 = new System.Windows.Forms.RichTextBox();
+            this.w12 = new System.Windows.Forms.RichTextBox();
+            this.t12 = new System.Windows.Forms.RichTextBox();
+            this.m12 = new System.Windows.Forms.RichTextBox();
+            this.f1 = new System.Windows.Forms.RichTextBox();
+            this.r1 = new System.Windows.Forms.RichTextBox();
+            this.w1 = new System.Windows.Forms.RichTextBox();
+            this.t1 = new System.Windows.Forms.RichTextBox();
+            this.m1 = new System.Windows.Forms.RichTextBox();
+            this.f2 = new System.Windows.Forms.RichTextBox();
+            this.r2 = new System.Windows.Forms.RichTextBox();
+            this.w2 = new System.Windows.Forms.RichTextBox();
+            this.t2 = new System.Windows.Forms.RichTextBox();
+            this.m2 = new System.Windows.Forms.RichTextBox();
+            this.mHeader = new System.Windows.Forms.Label();
+            this.tHeader = new System.Windows.Forms.Label();
+            this.wHeader = new System.Windows.Forms.Label();
+            this.rHeader = new System.Windows.Forms.Label();
+            this.fHeader = new System.Windows.Forms.Label();
             this.searchGroup.SuspendLayout();
             this.resultsGroup.SuspendLayout();
             this.calendarGroup.SuspendLayout();
@@ -188,16 +188,16 @@
             // 
             // calendarGroup
             // 
+            this.calendarGroup.Controls.Add(this.fHeader);
+            this.calendarGroup.Controls.Add(this.rHeader);
+            this.calendarGroup.Controls.Add(this.wHeader);
+            this.calendarGroup.Controls.Add(this.tHeader);
+            this.calendarGroup.Controls.Add(this.mHeader);
             this.calendarGroup.Controls.Add(this.f3);
             this.calendarGroup.Controls.Add(this.r3);
             this.calendarGroup.Controls.Add(this.w3);
             this.calendarGroup.Controls.Add(this.t3);
             this.calendarGroup.Controls.Add(this.m3);
-            this.calendarGroup.Controls.Add(this.fridayHeader);
-            this.calendarGroup.Controls.Add(this.thursdayHeader);
-            this.calendarGroup.Controls.Add(this.wednesdayHeader);
-            this.calendarGroup.Controls.Add(this.tuesdayHeader);
-            this.calendarGroup.Controls.Add(this.mondayHeader);
             this.calendarGroup.Controls.Add(this.f8);
             this.calendarGroup.Controls.Add(this.r8);
             this.calendarGroup.Controls.Add(this.w8);
@@ -240,125 +240,165 @@
             this.calendarGroup.TabStop = false;
             this.calendarGroup.Text = "Calendar";
             // 
-            // m2
+            // f3
             // 
-            this.m2.Location = new System.Drawing.Point(6, 320);
-            this.m2.Name = "m2";
-            this.m2.Size = new System.Drawing.Size(101, 37);
-            this.m2.TabIndex = 8;
-            this.m2.Text = "";
+            this.f3.Location = new System.Drawing.Point(436, 363);
+            this.f3.Name = "f3";
+            this.f3.Size = new System.Drawing.Size(101, 37);
+            this.f3.TabIndex = 52;
+            this.f3.Text = "3 PM";
             // 
-            // t2
+            // r3
             // 
-            this.t2.Location = new System.Drawing.Point(113, 320);
-            this.t2.Name = "t2";
-            this.t2.Size = new System.Drawing.Size(101, 37);
-            this.t2.TabIndex = 9;
-            this.t2.Text = "";
+            this.r3.Location = new System.Drawing.Point(329, 363);
+            this.r3.Name = "r3";
+            this.r3.Size = new System.Drawing.Size(101, 37);
+            this.r3.TabIndex = 51;
+            this.r3.Text = "";
             // 
-            // w2
+            // w3
             // 
-            this.w2.Location = new System.Drawing.Point(220, 320);
-            this.w2.Name = "w2";
-            this.w2.Size = new System.Drawing.Size(101, 37);
-            this.w2.TabIndex = 10;
-            this.w2.Text = "";
+            this.w3.Location = new System.Drawing.Point(222, 363);
+            this.w3.Name = "w3";
+            this.w3.Size = new System.Drawing.Size(101, 37);
+            this.w3.TabIndex = 50;
+            this.w3.Text = "3 PM";
             // 
-            // r2
+            // t3
             // 
-            this.r2.Location = new System.Drawing.Point(327, 320);
-            this.r2.Name = "r2";
-            this.r2.Size = new System.Drawing.Size(101, 37);
-            this.r2.TabIndex = 11;
-            this.r2.Text = "";
+            this.t3.Location = new System.Drawing.Point(115, 363);
+            this.t3.Name = "t3";
+            this.t3.Size = new System.Drawing.Size(101, 37);
+            this.t3.TabIndex = 49;
+            this.t3.Text = "";
             // 
-            // f2
+            // m3
             // 
-            this.f2.Location = new System.Drawing.Point(434, 320);
-            this.f2.Name = "f2";
-            this.f2.Size = new System.Drawing.Size(101, 37);
-            this.f2.TabIndex = 12;
-            this.f2.Text = "";
+            this.m3.Location = new System.Drawing.Point(8, 363);
+            this.m3.Name = "m3";
+            this.m3.Size = new System.Drawing.Size(101, 37);
+            this.m3.TabIndex = 48;
+            this.m3.Text = "3 PM";
             // 
-            // f1
+            // f8
             // 
-            this.f1.Location = new System.Drawing.Point(434, 277);
-            this.f1.Name = "f1";
-            this.f1.Size = new System.Drawing.Size(101, 37);
-            this.f1.TabIndex = 17;
-            this.f1.Text = "";
+            this.f8.Location = new System.Drawing.Point(434, 62);
+            this.f8.Name = "f8";
+            this.f8.Size = new System.Drawing.Size(101, 37);
+            this.f8.TabIndex = 42;
+            this.f8.Text = "8 AM";
             // 
-            // r1
+            // r8
             // 
-            this.r1.Location = new System.Drawing.Point(327, 277);
-            this.r1.Name = "r1";
-            this.r1.Size = new System.Drawing.Size(101, 37);
-            this.r1.TabIndex = 16;
-            this.r1.Text = "";
+            this.r8.Location = new System.Drawing.Point(327, 62);
+            this.r8.Name = "r8";
+            this.r8.Size = new System.Drawing.Size(101, 37);
+            this.r8.TabIndex = 41;
+            this.r8.Text = "";
             // 
-            // w1
+            // w8
             // 
-            this.w1.Location = new System.Drawing.Point(220, 277);
-            this.w1.Name = "w1";
-            this.w1.Size = new System.Drawing.Size(101, 37);
-            this.w1.TabIndex = 15;
-            this.w1.Text = "";
+            this.w8.Location = new System.Drawing.Point(220, 62);
+            this.w8.Name = "w8";
+            this.w8.Size = new System.Drawing.Size(101, 37);
+            this.w8.TabIndex = 40;
+            this.w8.Text = "8 AM";
             // 
-            // t1
+            // t8
             // 
-            this.t1.Location = new System.Drawing.Point(113, 277);
-            this.t1.Name = "t1";
-            this.t1.Size = new System.Drawing.Size(101, 37);
-            this.t1.TabIndex = 14;
-            this.t1.Text = "";
+            this.t8.Location = new System.Drawing.Point(113, 62);
+            this.t8.Name = "t8";
+            this.t8.Size = new System.Drawing.Size(101, 37);
+            this.t8.TabIndex = 39;
+            this.t8.Text = "";
             // 
-            // m1
+            // m8
             // 
-            this.m1.Location = new System.Drawing.Point(6, 277);
-            this.m1.Name = "m1";
-            this.m1.Size = new System.Drawing.Size(101, 37);
-            this.m1.TabIndex = 13;
-            this.m1.Text = "";
+            this.m8.Location = new System.Drawing.Point(6, 62);
+            this.m8.Name = "m8";
+            this.m8.Size = new System.Drawing.Size(101, 37);
+            this.m8.TabIndex = 38;
+            this.m8.Text = "8 AM";
             // 
-            // f12
+            // f9
             // 
-            this.f12.Location = new System.Drawing.Point(434, 234);
-            this.f12.Name = "f12";
-            this.f12.Size = new System.Drawing.Size(101, 37);
-            this.f12.TabIndex = 22;
-            this.f12.Text = "";
+            this.f9.Location = new System.Drawing.Point(434, 105);
+            this.f9.Name = "f9";
+            this.f9.Size = new System.Drawing.Size(101, 37);
+            this.f9.TabIndex = 37;
+            this.f9.Text = "9 AM";
             // 
-            // r12
+            // r9
             // 
-            this.r12.Location = new System.Drawing.Point(327, 234);
-            this.r12.Name = "r12";
-            this.r12.Size = new System.Drawing.Size(101, 37);
-            this.r12.TabIndex = 21;
-            this.r12.Text = "";
+            this.r9.Location = new System.Drawing.Point(327, 105);
+            this.r9.Name = "r9";
+            this.r9.Size = new System.Drawing.Size(101, 37);
+            this.r9.TabIndex = 36;
+            this.r9.Text = "";
             // 
-            // w12
+            // w9
             // 
-            this.w12.Location = new System.Drawing.Point(220, 234);
-            this.w12.Name = "w12";
-            this.w12.Size = new System.Drawing.Size(101, 37);
-            this.w12.TabIndex = 20;
-            this.w12.Text = "";
+            this.w9.Location = new System.Drawing.Point(220, 105);
+            this.w9.Name = "w9";
+            this.w9.Size = new System.Drawing.Size(101, 37);
+            this.w9.TabIndex = 35;
+            this.w9.Text = "9 AM";
             // 
-            // t12
+            // t9
             // 
-            this.t12.Location = new System.Drawing.Point(113, 234);
-            this.t12.Name = "t12";
-            this.t12.Size = new System.Drawing.Size(101, 37);
-            this.t12.TabIndex = 19;
-            this.t12.Text = "";
+            this.t9.Location = new System.Drawing.Point(113, 105);
+            this.t9.Name = "t9";
+            this.t9.Size = new System.Drawing.Size(101, 37);
+            this.t9.TabIndex = 34;
+            this.t9.Text = "";
             // 
-            // m12
+            // m9
             // 
-            this.m12.Location = new System.Drawing.Point(6, 234);
-            this.m12.Name = "m12";
-            this.m12.Size = new System.Drawing.Size(101, 37);
-            this.m12.TabIndex = 18;
-            this.m12.Text = "";
+            this.m9.Location = new System.Drawing.Point(6, 105);
+            this.m9.Name = "m9";
+            this.m9.Size = new System.Drawing.Size(101, 37);
+            this.m9.TabIndex = 33;
+            this.m9.Text = "9 AM";
+            // 
+            // f10
+            // 
+            this.f10.Location = new System.Drawing.Point(434, 148);
+            this.f10.Name = "f10";
+            this.f10.Size = new System.Drawing.Size(101, 37);
+            this.f10.TabIndex = 32;
+            this.f10.Text = "10 AM";
+            // 
+            // r10
+            // 
+            this.r10.Location = new System.Drawing.Point(327, 148);
+            this.r10.Name = "r10";
+            this.r10.Size = new System.Drawing.Size(101, 37);
+            this.r10.TabIndex = 31;
+            this.r10.Text = "";
+            // 
+            // w10
+            // 
+            this.w10.Location = new System.Drawing.Point(220, 148);
+            this.w10.Name = "w10";
+            this.w10.Size = new System.Drawing.Size(101, 37);
+            this.w10.TabIndex = 30;
+            this.w10.Text = "10 AM";
+            // 
+            // t10
+            // 
+            this.t10.Location = new System.Drawing.Point(113, 148);
+            this.t10.Name = "t10";
+            this.t10.Size = new System.Drawing.Size(101, 37);
+            this.t10.TabIndex = 29;
+            this.t10.Text = "";
+            // 
+            // m10
+            // 
+            this.m10.Location = new System.Drawing.Point(6, 148);
+            this.m10.Name = "m10";
+            this.m10.Size = new System.Drawing.Size(101, 37);
+            this.m10.TabIndex = 28;
+            this.m10.Text = "10 AM";
             // 
             // f11
             // 
@@ -366,7 +406,7 @@
             this.f11.Name = "f11";
             this.f11.Size = new System.Drawing.Size(101, 37);
             this.f11.TabIndex = 27;
-            this.f11.Text = "";
+            this.f11.Text = "11 AM";
             // 
             // r11
             // 
@@ -382,7 +422,7 @@
             this.w11.Name = "w11";
             this.w11.Size = new System.Drawing.Size(101, 37);
             this.w11.TabIndex = 25;
-            this.w11.Text = "";
+            this.w11.Text = "11 AM";
             this.w11.TextChanged += new System.EventHandler(this.richTextBox18_TextChanged);
             // 
             // t11
@@ -399,207 +439,173 @@
             this.m11.Name = "m11";
             this.m11.Size = new System.Drawing.Size(101, 37);
             this.m11.TabIndex = 23;
-            this.m11.Text = "";
+            this.m11.Text = "11 AM";
             // 
-            // f10
+            // f12
             // 
-            this.f10.Location = new System.Drawing.Point(434, 148);
-            this.f10.Name = "f10";
-            this.f10.Size = new System.Drawing.Size(101, 37);
-            this.f10.TabIndex = 32;
-            this.f10.Text = "";
+            this.f12.Location = new System.Drawing.Point(434, 234);
+            this.f12.Name = "f12";
+            this.f12.Size = new System.Drawing.Size(101, 37);
+            this.f12.TabIndex = 22;
+            this.f12.Text = "12 PM";
             // 
-            // r10
+            // r12
             // 
-            this.r10.Location = new System.Drawing.Point(327, 148);
-            this.r10.Name = "r10";
-            this.r10.Size = new System.Drawing.Size(101, 37);
-            this.r10.TabIndex = 31;
-            this.r10.Text = "";
+            this.r12.Location = new System.Drawing.Point(327, 234);
+            this.r12.Name = "r12";
+            this.r12.Size = new System.Drawing.Size(101, 37);
+            this.r12.TabIndex = 21;
+            this.r12.Text = "";
             // 
-            // w10
+            // w12
             // 
-            this.w10.Location = new System.Drawing.Point(220, 148);
-            this.w10.Name = "w10";
-            this.w10.Size = new System.Drawing.Size(101, 37);
-            this.w10.TabIndex = 30;
-            this.w10.Text = "";
+            this.w12.Location = new System.Drawing.Point(220, 234);
+            this.w12.Name = "w12";
+            this.w12.Size = new System.Drawing.Size(101, 37);
+            this.w12.TabIndex = 20;
+            this.w12.Text = "12 PM";
             // 
-            // t10
+            // t12
             // 
-            this.t10.Location = new System.Drawing.Point(113, 148);
-            this.t10.Name = "t10";
-            this.t10.Size = new System.Drawing.Size(101, 37);
-            this.t10.TabIndex = 29;
-            this.t10.Text = "";
+            this.t12.Location = new System.Drawing.Point(113, 234);
+            this.t12.Name = "t12";
+            this.t12.Size = new System.Drawing.Size(101, 37);
+            this.t12.TabIndex = 19;
+            this.t12.Text = "";
             // 
-            // m10
+            // m12
             // 
-            this.m10.Location = new System.Drawing.Point(6, 148);
-            this.m10.Name = "m10";
-            this.m10.Size = new System.Drawing.Size(101, 37);
-            this.m10.TabIndex = 28;
-            this.m10.Text = "";
+            this.m12.Location = new System.Drawing.Point(6, 234);
+            this.m12.Name = "m12";
+            this.m12.Size = new System.Drawing.Size(101, 37);
+            this.m12.TabIndex = 18;
+            this.m12.Text = "12 PM";
             // 
-            // f9
+            // f1
             // 
-            this.f9.Location = new System.Drawing.Point(434, 105);
-            this.f9.Name = "f9";
-            this.f9.Size = new System.Drawing.Size(101, 37);
-            this.f9.TabIndex = 37;
-            this.f9.Text = "";
+            this.f1.Location = new System.Drawing.Point(434, 277);
+            this.f1.Name = "f1";
+            this.f1.Size = new System.Drawing.Size(101, 37);
+            this.f1.TabIndex = 17;
+            this.f1.Text = "1 PM";
             // 
-            // r9
+            // r1
             // 
-            this.r9.Location = new System.Drawing.Point(327, 105);
-            this.r9.Name = "r9";
-            this.r9.Size = new System.Drawing.Size(101, 37);
-            this.r9.TabIndex = 36;
-            this.r9.Text = "";
+            this.r1.Location = new System.Drawing.Point(327, 277);
+            this.r1.Name = "r1";
+            this.r1.Size = new System.Drawing.Size(101, 37);
+            this.r1.TabIndex = 16;
+            this.r1.Text = "";
             // 
-            // w9
+            // w1
             // 
-            this.w9.Location = new System.Drawing.Point(220, 105);
-            this.w9.Name = "w9";
-            this.w9.Size = new System.Drawing.Size(101, 37);
-            this.w9.TabIndex = 35;
-            this.w9.Text = "";
+            this.w1.Location = new System.Drawing.Point(220, 277);
+            this.w1.Name = "w1";
+            this.w1.Size = new System.Drawing.Size(101, 37);
+            this.w1.TabIndex = 15;
+            this.w1.Text = "1 PM";
             // 
-            // t9
+            // t1
             // 
-            this.t9.Location = new System.Drawing.Point(113, 105);
-            this.t9.Name = "t9";
-            this.t9.Size = new System.Drawing.Size(101, 37);
-            this.t9.TabIndex = 34;
-            this.t9.Text = "";
+            this.t1.Location = new System.Drawing.Point(113, 277);
+            this.t1.Name = "t1";
+            this.t1.Size = new System.Drawing.Size(101, 37);
+            this.t1.TabIndex = 14;
+            this.t1.Text = "";
             // 
-            // m9
+            // m1
             // 
-            this.m9.Location = new System.Drawing.Point(6, 105);
-            this.m9.Name = "m9";
-            this.m9.Size = new System.Drawing.Size(101, 37);
-            this.m9.TabIndex = 33;
-            this.m9.Text = "";
+            this.m1.Location = new System.Drawing.Point(6, 277);
+            this.m1.Name = "m1";
+            this.m1.Size = new System.Drawing.Size(101, 37);
+            this.m1.TabIndex = 13;
+            this.m1.Text = "1 PM";
             // 
-            // f8
+            // f2
             // 
-            this.f8.Location = new System.Drawing.Point(434, 62);
-            this.f8.Name = "f8";
-            this.f8.Size = new System.Drawing.Size(101, 37);
-            this.f8.TabIndex = 42;
-            this.f8.Text = "";
+            this.f2.Location = new System.Drawing.Point(434, 320);
+            this.f2.Name = "f2";
+            this.f2.Size = new System.Drawing.Size(101, 37);
+            this.f2.TabIndex = 12;
+            this.f2.Text = "2 PM";
             // 
-            // r8
+            // r2
             // 
-            this.r8.Location = new System.Drawing.Point(327, 62);
-            this.r8.Name = "r8";
-            this.r8.Size = new System.Drawing.Size(101, 37);
-            this.r8.TabIndex = 41;
-            this.r8.Text = "";
+            this.r2.Location = new System.Drawing.Point(327, 320);
+            this.r2.Name = "r2";
+            this.r2.Size = new System.Drawing.Size(101, 37);
+            this.r2.TabIndex = 11;
+            this.r2.Text = "";
             // 
-            // w8
+            // w2
             // 
-            this.w8.Location = new System.Drawing.Point(220, 62);
-            this.w8.Name = "w8";
-            this.w8.Size = new System.Drawing.Size(101, 37);
-            this.w8.TabIndex = 40;
-            this.w8.Text = "";
+            this.w2.Location = new System.Drawing.Point(220, 320);
+            this.w2.Name = "w2";
+            this.w2.Size = new System.Drawing.Size(101, 37);
+            this.w2.TabIndex = 10;
+            this.w2.Text = "2 PM";
             // 
-            // t8
+            // t2
             // 
-            this.t8.Location = new System.Drawing.Point(113, 62);
-            this.t8.Name = "t8";
-            this.t8.Size = new System.Drawing.Size(101, 37);
-            this.t8.TabIndex = 39;
-            this.t8.Text = "";
+            this.t2.Location = new System.Drawing.Point(113, 320);
+            this.t2.Name = "t2";
+            this.t2.Size = new System.Drawing.Size(101, 37);
+            this.t2.TabIndex = 9;
+            this.t2.Text = "";
             // 
-            // m8
+            // m2
             // 
-            this.m8.Location = new System.Drawing.Point(6, 62);
-            this.m8.Name = "m8";
-            this.m8.Size = new System.Drawing.Size(101, 37);
-            this.m8.TabIndex = 38;
-            this.m8.Text = "";
+            this.m2.Location = new System.Drawing.Point(6, 320);
+            this.m2.Name = "m2";
+            this.m2.Size = new System.Drawing.Size(101, 37);
+            this.m2.TabIndex = 8;
+            this.m2.Text = "2 PM";
             // 
-            // fridayHeader
+            // mHeader
             // 
-            this.fridayHeader.Location = new System.Drawing.Point(434, 19);
-            this.fridayHeader.Name = "fridayHeader";
-            this.fridayHeader.Size = new System.Drawing.Size(101, 37);
-            this.fridayHeader.TabIndex = 47;
-            this.fridayHeader.Text = "Friday";
+            this.mHeader.AutoSize = true;
+            this.mHeader.Location = new System.Drawing.Point(34, 29);
+            this.mHeader.Name = "mHeader";
+            this.mHeader.Size = new System.Drawing.Size(45, 13);
+            this.mHeader.TabIndex = 53;
+            this.mHeader.Text = "Monday";
             // 
-            // thursdayHeader
+            // tHeader
             // 
-            this.thursdayHeader.Location = new System.Drawing.Point(327, 19);
-            this.thursdayHeader.Name = "thursdayHeader";
-            this.thursdayHeader.Size = new System.Drawing.Size(101, 37);
-            this.thursdayHeader.TabIndex = 46;
-            this.thursdayHeader.Text = "Thursday";
+            this.tHeader.AutoSize = true;
+            this.tHeader.Location = new System.Drawing.Point(138, 29);
+            this.tHeader.Name = "tHeader";
+            this.tHeader.Size = new System.Drawing.Size(48, 13);
+            this.tHeader.TabIndex = 54;
+            this.tHeader.Text = "Tuesday";
             // 
-            // wednesdayHeader
+            // wHeader
             // 
-            this.wednesdayHeader.Location = new System.Drawing.Point(220, 19);
-            this.wednesdayHeader.Name = "wednesdayHeader";
-            this.wednesdayHeader.Size = new System.Drawing.Size(101, 37);
-            this.wednesdayHeader.TabIndex = 45;
-            this.wednesdayHeader.Text = "Wednesday";
+            this.wHeader.AutoSize = true;
+            this.wHeader.Location = new System.Drawing.Point(239, 29);
+            this.wHeader.Name = "wHeader";
+            this.wHeader.Size = new System.Drawing.Size(64, 13);
+            this.wHeader.TabIndex = 55;
+            this.wHeader.Text = "Wednesday";
             // 
-            // tuesdayHeader
+            // rHeader
             // 
-            this.tuesdayHeader.Location = new System.Drawing.Point(113, 19);
-            this.tuesdayHeader.Name = "tuesdayHeader";
-            this.tuesdayHeader.Size = new System.Drawing.Size(101, 37);
-            this.tuesdayHeader.TabIndex = 44;
-            this.tuesdayHeader.Text = "Tuesday";
+            this.rHeader.AutoSize = true;
+            this.rHeader.Location = new System.Drawing.Point(351, 29);
+            this.rHeader.Name = "rHeader";
+            this.rHeader.Size = new System.Drawing.Size(51, 13);
+            this.rHeader.TabIndex = 56;
+            this.rHeader.Text = "Thursday";
             // 
-            // mondayHeader
+            // fHeader
             // 
-            this.mondayHeader.Location = new System.Drawing.Point(6, 19);
-            this.mondayHeader.Name = "mondayHeader";
-            this.mondayHeader.Size = new System.Drawing.Size(101, 37);
-            this.mondayHeader.TabIndex = 43;
-            this.mondayHeader.Text = "Monday";
-            // 
-            // f3
-            // 
-            this.f3.Location = new System.Drawing.Point(436, 363);
-            this.f3.Name = "f3";
-            this.f3.Size = new System.Drawing.Size(101, 37);
-            this.f3.TabIndex = 52;
-            this.f3.Text = "";
-            // 
-            // r3
-            // 
-            this.r3.Location = new System.Drawing.Point(329, 363);
-            this.r3.Name = "r3";
-            this.r3.Size = new System.Drawing.Size(101, 37);
-            this.r3.TabIndex = 51;
-            this.r3.Text = "";
-            // 
-            // w3
-            // 
-            this.w3.Location = new System.Drawing.Point(222, 363);
-            this.w3.Name = "w3";
-            this.w3.Size = new System.Drawing.Size(101, 37);
-            this.w3.TabIndex = 50;
-            this.w3.Text = "";
-            // 
-            // t3
-            // 
-            this.t3.Location = new System.Drawing.Point(115, 363);
-            this.t3.Name = "t3";
-            this.t3.Size = new System.Drawing.Size(101, 37);
-            this.t3.TabIndex = 49;
-            this.t3.Text = "";
-            // 
-            // m3
-            // 
-            this.m3.Location = new System.Drawing.Point(8, 363);
-            this.m3.Name = "m3";
-            this.m3.Size = new System.Drawing.Size(101, 37);
-            this.m3.TabIndex = 48;
-            this.m3.Text = "";
+            this.fHeader.AutoSize = true;
+            this.fHeader.Location = new System.Drawing.Point(466, 29);
+            this.fHeader.Name = "fHeader";
+            this.fHeader.Size = new System.Drawing.Size(35, 13);
+            this.fHeader.TabIndex = 57;
+            this.fHeader.Text = "Friday";
+            this.fHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -616,6 +622,7 @@
             this.resultsGroup.ResumeLayout(false);
             this.resultsGroup.PerformLayout();
             this.calendarGroup.ResumeLayout(false);
+            this.calendarGroup.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -638,11 +645,6 @@
         private System.Windows.Forms.RichTextBox w3;
         private System.Windows.Forms.RichTextBox t3;
         private System.Windows.Forms.RichTextBox m3;
-        private System.Windows.Forms.RichTextBox fridayHeader;
-        private System.Windows.Forms.RichTextBox thursdayHeader;
-        private System.Windows.Forms.RichTextBox wednesdayHeader;
-        private System.Windows.Forms.RichTextBox tuesdayHeader;
-        private System.Windows.Forms.RichTextBox mondayHeader;
         private System.Windows.Forms.RichTextBox f8;
         private System.Windows.Forms.RichTextBox r8;
         private System.Windows.Forms.RichTextBox w8;
@@ -678,6 +680,11 @@
         private System.Windows.Forms.RichTextBox w2;
         private System.Windows.Forms.RichTextBox t2;
         private System.Windows.Forms.RichTextBox m2;
+        private System.Windows.Forms.Label fHeader;
+        private System.Windows.Forms.Label rHeader;
+        private System.Windows.Forms.Label wHeader;
+        private System.Windows.Forms.Label tHeader;
+        private System.Windows.Forms.Label mHeader;
     }
 }
 
